@@ -1,0 +1,32 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+form{
+  padding-top: 2vh;
+  display: flex;
+  align-items: center;
+  gap: 3vh;
+  flex-direction: column;
+}
+form input{
+  width: 20vw;
+  height: 5vh;
+  border: 2px solid black;
+}
+form input{
+  padding-left: .5vw;
+}
+form>button{
+  width: 10vw;
+  height: 5vh;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
